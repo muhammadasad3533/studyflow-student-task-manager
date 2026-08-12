@@ -1,0 +1,116 @@
+:root {
+  --bg-app: #f4f7fb;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #f8fafc;
+  --bg-soft: #f9fafb;
+  --bg-subtle: #eef2ff;
+  --bg-input: #ffffff;
+  --bg-input-soft: #fff7f7;
+  --border-soft: #e5e7eb;
+  --border-strong: #d1d5db;
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+  --text-on-accent: #ffffff;
+  --accent: #4f46e5;
+  --accent-strong: #7c3aed;
+  --accent-contrast: #4338ca;
+  --accent-soft: #eef2ff;
+  --success: #10b981;
+  --success-soft: #f0fdf4;
+  --warning: #f59e0b;
+  --warning-soft: #fef3c7;
+  --danger: #ef4444;
+  --danger-soft: #fff1f2;
+  --danger-text: #b91c1c;
+  --shadow-soft: rgba(15, 23, 42, 0.03);
+  --shadow-strong: rgba(15, 23, 42, 0.08);
+  --focus-ring: rgba(79, 70, 229, 0.18);
+  --sidebar-border: #e5e7eb;
+  --task-done-border: #d1fae5;
+  --task-card-hover: #f3f4f6;
+  --task-badge-text: #1f2937;
+  font-family: Inter, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-primary);
+  background: var(--bg-app);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme='dark'] {
+  --bg-app: #0f172a;
+  --bg-surface: #111827;
+  --bg-surface-alt: #1f2937;
+  --bg-soft: #0b1220;
+  --bg-subtle: #1e293b;
+  --bg-input: #0b1220;
+  --bg-input-soft: rgba(239, 68, 68, 0.08);
+  --border-soft: #243247;
+  --border-strong: #334155;
+  --text-primary: #e5eefb;
+  --text-secondary: #dbe4f4;
+  --text-muted: #9aa8bd;
+  --text-on-accent: #f8fafc;
+  --accent: #8b5cf6;
+  --accent-strong: #a78bfa;
+  --accent-contrast: #e9d5ff;
+  --accent-soft: rgba(139, 92, 246, 0.15);
+  --success: #22c55e;
+  --success-soft: rgba(34, 197, 94, 0.12);
+  --warning: #fbbf24;
+  --warning-soft: rgba(251, 191, 36, 0.1);
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.1);
+  --danger-text: #fecaca;
+  --shadow-soft: rgba(2, 6, 23, 0.25);
+  --shadow-strong: rgba(2, 6, 23, 0.42);
+  --focus-ring: rgba(167, 139, 250, 0.28);
+  --sidebar-border: #1f2937;
+  --task-done-border: #14532d;
+  --task-card-hover: #111c2f;
+  --task-badge-text: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg-app);
+  color: var(--text-primary);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+}
+
+::placeholder {
+  color: var(--text-muted);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
