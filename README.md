@@ -1,16 +1,56 @@
-# React + Vite
+# StudyFlow — Student Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+StudyFlow is a React-based task management application designed
+for university students.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It allows students to organize assignments, quizzes, exams,
+projects, and study activities.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add tasks
+- Edit tasks
+- Delete tasks
+- Complete tasks
+- Search
+- Filtering
+- Sorting
+- Dashboard statistics
+- Progress tracking
+- LocalStorage persistence
+- Dark/light mode
+- Responsive design
 
-## Expanding the ESLint configuration
+## Technology
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- LocalStorage
+- Lucide React
+
+## Installation
+
+npm install
+
+## Development
+
+npm run dev
+
+## AI-Assisted Development
+
+AI was used as a development assistant throughout the project.
+
+It supported planning, component architecture, implementation,
+debugging, testing suggestions, and code review.
+
+All AI-generated code was reviewed and tested manually.
+
+## Documentation
+
+- AI-PROMPTS.md
+- AI-ASSISTANCE.md
+- MANUAL-IMPROVEMENTS.md
